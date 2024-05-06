@@ -1,0 +1,240 @@
+nohup: 忽略输入
+Matplotlib created a temporary cache directory at /tmp/matplotlib-ca6jop0_ because the default path (/home/gta/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+/mnt/lyf/home/gta/stx/gaishiyan/models/torchlinear.py:33: UserWarning: Specified kernel cache directory could not be created! This disables kernel caching. Specified directory is /home/gta/.cache/torch/kernels. This warning will appear only once per process. (Triggered internally at /opt/conda/conda-bld/pytorch_1708025847094/work/aten/src/ATen/native/cuda/jit_utils.cpp:1442.)
+  sign, logabsdet = torch.linalg.slogdet(M)
+/mnt/sdc1/gta/.conda/envs/ruia/lib/python3.9/site-packages/joblib/externals/loky/backend/context.py:110: UserWarning: Could not find the number of physical cores for the following reason:
+'ascii' codec can't decode byte 0xe4 in position 2: ordinal not in range(128)
+Returning the number of logical cores instead. You can silence this warning by setting LOKY_MAX_CPU_COUNT to the number of cores you want to use.
+  warnings.warn(
+  File "/mnt/sdc1/gta/.conda/envs/ruia/lib/python3.9/site-packages/joblib/externals/loky/backend/context.py", line 193, in _count_physical_cores
+    cpu_info = subprocess.run(
+  File "/mnt/sdc1/gta/.conda/envs/ruia/lib/python3.9/subprocess.py", line 507, in run
+    stdout, stderr = process.communicate(input, timeout=timeout)
+  File "/mnt/sdc1/gta/.conda/envs/ruia/lib/python3.9/subprocess.py", line 1134, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/mnt/sdc1/gta/.conda/envs/ruia/lib/python3.9/subprocess.py", line 2033, in _communicate
+    stdout = self._translate_newlines(stdout,
+  File "/mnt/sdc1/gta/.conda/envs/ruia/lib/python3.9/subprocess.py", line 1011, in _translate_newlines
+    data = data.decode(encoding, errors)
+(3387, 482)
+[[6.6666669e-01 0.0000000e+00 6.6666669e-01 ... 1.0519021e-03
+  4.8929161e-01 1.0000000e+00]
+ [3.3333334e-01 2.2222222e-01 0.0000000e+00 ... 1.1816736e-03
+  4.6457991e-01 1.0000000e+00]
+ [3.3333334e-01 1.1111111e-01 0.0000000e+00 ... 1.0316520e-03
+  4.6128500e-01 1.0000000e+00]
+ ...
+ [0.0000000e+00 1.1111111e-01 0.0000000e+00 ... 7.7743945e-04
+  6.5568370e-01 1.0000000e+00]
+ [0.0000000e+00 2.2222222e-01 0.0000000e+00 ... 7.4275973e-04
+  6.4909393e-01 1.0000000e+00]
+ [3.3333334e-01 1.1111111e-01 0.0000000e+00 ... 1.5500720e-03
+  7.3805600e-01 1.0000000e+00]]
+(482, 482)
+----------Iter = 0----------
+Losses = 0.040693
+Loss = 0.466496
+KL = 5.218065
+Variable usage = 100.00%
+----------Iter = 50----------
+Losses = 0.040552
+Loss = 0.026760
+KL = 9.199577
+Variable usage = 100.00%
+----------Iter = 100----------
+Losses = 0.040553
+Loss = 0.024169
+KL = 7.072809
+Variable usage = 4.19%
+----------Iter = 150----------
+Losses = 0.040554
+Loss = 0.024344
+KL = 6.242309
+Variable usage = 0.00%
+----------Iter = 200----------
+Losses = 0.040545
+Loss = 0.030128
+KL = 5.042447
+Variable usage = 0.00%
+----------Iter = 250----------
+Losses = 0.040550
+Loss = 0.034461
+KL = 4.293699
+Variable usage = 0.00%
+----------Iter = 300----------
+Losses = 0.040549
+Loss = 0.034374
+KL = 3.666078
+Variable usage = 0.00%
+----------Iter = 350----------
+Losses = 0.040549
+Loss = 0.033736
+KL = 3.214092
+Variable usage = 0.00%
+----------Iter = 400----------
+Losses = 0.040549
+Loss = 0.033145
+KL = 2.954266
+Variable usage = 0.00%
+----------Iter = 450----------
+Losses = 0.040550
+Loss = 0.032728
+KL = 2.785115
+Variable usage = 0.00%
+----------Iter = 500----------
+Losses = 0.040550
+Loss = 0.032276
+KL = 2.700255
+Variable usage = 0.00%
+----------Iter = 550----------
+Losses = 0.040550
+Loss = 0.031816
+KL = 2.672006
+Variable usage = 0.00%
+----------Iter = 600----------
+Losses = 0.040549
+Loss = 0.031538
+KL = 2.720295
+Variable usage = 0.00%
+----------Iter = 650----------
+Losses = 0.040549
+Loss = 0.031114
+KL = 2.829102
+Variable usage = 0.00%
+----------Iter = 700----------
+Losses = 0.040550
+Loss = 0.030660
+KL = 2.965544
+Variable usage = 0.00%
+----------Iter = 750----------
+Losses = 0.040550
+Loss = 0.030399
+KL = 3.004260
+Variable usage = 0.00%
+----------Iter = 800----------
+Losses = 0.040550
+Loss = 0.030126
+KL = 3.102716
+Variable usage = 0.00%
+----------Iter = 850----------
+Losses = 0.040550
+Loss = 0.029657
+KL = 3.252556
+Variable usage = 0.00%
+----------Iter = 900----------
+Losses = 0.040550
+Loss = 0.029383
+KL = 3.363390
+Variable usage = 0.00%
+----------Iter = 950----------
+Losses = 0.040550
+Loss = 0.029097
+KL = 3.382504
+Variable usage = 0.00%
+----------Iter = 0----------
+Loss = 0.141237
+KL = 6.614854
+Loss_e = 2.406137
+KL_e = 2.232301
+[t-SNE] Computing 121 nearest neighbors...
+[t-SNE] Indexed 256 samples in 0.000s...
+[t-SNE] Computed neighbors for 256 samples in 0.258s...
+[t-SNE] Computed conditional probabilities for sample 256 / 256
+[t-SNE] Mean sigma: 0.012904
+[t-SNE] KL divergence after 250 iterations with early exaggeration: 42.807590
+[t-SNE] KL divergence after 300 iterations: 0.289728
+----------Iter = 50----------
+Loss = 0.040973
+KL = 0.747711
+Loss_e = 0.149939
+KL_e = 0.110721
+----------Iter = 100----------
+Loss = 0.036106
+KL = 0.504512
+Loss_e = 0.069347
+KL_e = 0.043946
+----------Iter = 150----------
+Loss = 0.033249
+KL = 0.506497
+Loss_e = 0.045959
+KL_e = 0.025067
+----------Iter = 200----------
+Loss = 0.031990
+KL = 0.300707
+Loss_e = 0.034598
+KL_e = 0.016308
+----------Iter = 250----------
+Loss = 0.030773
+KL = 0.243287
+Loss_e = 0.028157
+KL_e = 0.011544
+----------Iter = 300----------
+Loss = 0.029700
+KL = 0.193800
+Loss_e = 0.023862
+KL_e = 0.008637
+----------Iter = 350----------
+Loss = 0.029013
+KL = 0.208312
+Loss_e = 0.020882
+KL_e = 0.006730
+----------Iter = 400----------
+Loss = 0.028008
+KL = 0.211686
+Loss_e = 0.018780
+KL_e = 0.005383
+----------Iter = 450----------
+Loss = 0.027844
+KL = 0.144721
+Loss_e = 0.016931
+KL_e = 0.004307
+----------Iter = 500----------
+Loss = 0.027458
+KL = 0.136158
+Loss_e = 0.015705
+KL_e = 0.003574
+----------Iter = 550----------
+Loss = 0.026981
+KL = 0.144406
+Loss_e = 0.014732
+KL_e = 0.003060
+----------Iter = 600----------
+Loss = 0.026539
+KL = 0.121619
+Loss_e = 0.013936
+KL_e = 0.002675
+----------Iter = 650----------
+Loss = 0.026215
+KL = 0.137155
+Loss_e = 0.013043
+KL_e = 0.002299
+----------Iter = 700----------
+Loss = 0.026005
+KL = 0.132360
+Loss_e = 0.012532
+KL_e = 0.001978
+----------Iter = 750----------
+Loss = 0.025839
+KL = 0.119148
+Loss_e = 0.011965
+KL_e = 0.001743
+----------Iter = 800----------
+Loss = 0.025869
+KL = 0.114179
+Loss_e = 0.011525
+KL_e = 0.001547
+----------Iter = 850----------
+Loss = 0.025537
+KL = 0.109882
+Loss_e = 0.011149
+KL_e = 0.001375
+----------Iter = 900----------
+Loss = 0.025255
+KL = 0.124154
+Loss_e = 0.010795
+KL_e = 0.001228
+----------Iter = 950----------
+Loss = 0.025036
+KL = 0.121280
+Loss_e = 0.010450
+KL_e = 0.001094
